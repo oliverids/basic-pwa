@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+    <title>PWA - Página Inicial</title>
+
+    <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
+    <meta name="theme-color" content="#084068" />
+    <link rel="apple-touch-icon" href="img/icon-192.png">
+</head>
+
+<body>
+    <main>
+        <h1>PWA básico.</h1>
+        <p>Esta é a página inicial.</p>
+
+        <a href="nova-pagina.html">Nova Página</a>
+    </main>
+
+    <div class="overlay" id="atualizacao">
+        <div class="caixa">
+            <div class="container">
+                <div class="info">
+                    <div class="info-titulo">
+                        <button id="fecha" type="button" tabindex="0"></button>
+                    </div>
+                    <div class="info-action">
+                        <p>Uma nova versão do PWA <span>está disponível</span>.</p>
+                        <button id="reload">Atualizar agora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
